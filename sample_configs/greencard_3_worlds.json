@@ -1,0 +1,25 @@
+{
+  "quds": {
+    "need visa?": {
+      "needs visa": [0, 0, 1],
+      "doesn't need visa": [1, 1, 0]
+    },
+    "free drink?": {
+      "free drink": [0, 1, 0],
+      "no free drink": [1, 0, 1]
+    }
+  },
+  "utterances": {
+    "US": [1, 0, 0],
+    "not US": [0, 1, 1],
+    "green card": [0, 1, 0],
+    "not green card": [1, 0, 1],
+    "_": [1, 1, 1]
+  },
+  "n_worlds": 3,
+  "worlds": {
+    "0": "US",
+    "1": "green card",
+    "2": "no green card, no visa"
+  }
+}
