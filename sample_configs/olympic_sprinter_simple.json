@@ -1,0 +1,32 @@
+{
+  "quds": {
+    "profession": {
+      "Olympic sprinter": [1, 0, 0, 0],
+      "Runner (other)": [0, 1, 0, 0],
+      "Athlete (other)": [0, 0, 1, 0],
+      "Other": [0, 0, 0, 1]
+    }
+  },
+  "utterances": {
+    "Olympic sprinter": [1, 0, 0, 0],
+    "Not olympic sprinter": [0, 1, 1, 1],
+    "Runner": [1, 1, 0, 0],
+    "Not runner": [0, 0, 1, 1],
+    "Athlete": [1, 1, 1, 0],
+    "Not athlete": [0, 0, 0, 1],
+    "_": [1, 1, 1, 1]
+  },
+  "n_worlds": 4,
+  "worlds": {
+    "0": "Olympic sprinter",
+    "1": "Runner (other)",
+    "2": "Athlete (other)",
+    "3": "Other"
+  },
+  "world_prior": {
+    "0": 0.01,
+    "1": 0.05,
+    "2": 0.10,
+    "3": 0.84
+  }
+}
