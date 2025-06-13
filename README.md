@@ -5,6 +5,7 @@ The examples and the code are adapted/guided from the original codebase from the
 
 The `search_inference` library is taken from the [pyro](https://pyro.ai/) package. The original source can be found [here](https://github.com/pyro-ppl/pyro/blob/dev/examples/rsa/search_inference.py).
 
+The `inference_algorithms` contains: Exact Search, Best-First Search, Importance Sampling, Stochastic Variational Inference.
 
 ## Getting Started
 ### Environment Setup
